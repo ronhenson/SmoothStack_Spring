@@ -1,0 +1,7 @@
+com\ss\UtopiaAirlines\AirportApplication.class
+com\ss\UtopiaAirlines\exceptions\ResourceExistsException.class
+com\ss\UtopiaAirlines\controller\AirportController.class
+com\ss\UtopiaAirlines\dao\AirportDao.class
+com\ss\UtopiaAirlines\exceptions\ResourceDoesNotExistsException.class
+com\ss\UtopiaAirlines\enitity\Airport.class
+com\ss\UtopiaAirlines\service\AirportService.class

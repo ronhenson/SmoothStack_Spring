@@ -14,12 +14,13 @@ import javax.persistence.Table;
 public class Airport {
 	
 	@Id
-	private Integer airportId;
+	private int airportId;
 	private String city;
-	public Integer getAirportId() {
+	private String name;
+	public int getAirportId() {
 		return airportId;
 	}
-	public void setAirportId(Integer airportId) {
+	public void setAirportId(int airportId) {
 		this.airportId = airportId;
 	}
 	public String getCity() {
@@ -27,6 +28,12 @@ public class Airport {
 	}
 	public void setCity(String city) {
 		this.city = city;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
 	}
 	
 	
